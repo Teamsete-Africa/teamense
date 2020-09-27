@@ -1,0 +1,30 @@
+/*.carousel-item{
+height: 100vh;
+min-height: 300px;
+background: no-repeat center center scroll;
+-webkit-background-size:cover;
+background-size: cover;
+}*/
+.carousel-item{
+background: no-repeat center center scroll;
+-webkit-background-size:cover;
+background-size: cover;
+}
+.carousel-caption{
+ bottom:250px;
+}
+
+.carousel-caption h5{
+font-size:50px;
+text-transform: uppercase;
+letter-spacing: 4px;
+font-family: poppins, sans-serif;
+}
+
+.carousel-caption p{
+width: 50%;
+margin:auto;
+font-size: 18px;
+line-height: 1.7;
+font-family: 'Dosis', sans-serif;
+}
