@@ -5,6 +5,14 @@ background: no-repeat center center scroll;
 -webkit-background-size:cover;
 background-size: cover;
 }*/
+.navbar a{
+	font-weight: bold;
+	font-size: 18px;
+}
+
+.navbar .navbar-nav .nav-link li a{
+	color: white;
+}
 .carousel-item{
 background: no-repeat center center scroll;
 -webkit-background-size:cover;
