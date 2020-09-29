@@ -6,9 +6,14 @@ background: no-repeat center center scroll;
 background-size: cover;
 }*/
 .navbar a{
-	font-weight: bold;
+	font-family: 'David Libre', serif;
 	font-size: 18px;
 }
+
+.navbar a:hover{
+   color: red;
+}
+ 
 
 .navbar .navbar-nav .nav-link li a{
 	color: white;
