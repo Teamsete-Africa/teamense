@@ -1,4 +1,4 @@
-alert("hello kent");
+
 
 $(document).ready(function(){	
 	$("li a").hover(function(){
