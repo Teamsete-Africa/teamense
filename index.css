@@ -56,12 +56,12 @@ padding: 5px;
 
 .two{
 	background-color:#f2c106;
-	padding-top: 70px;
+	padding-top: 50px;
 }
 
 .two p{
 	text-align:block; 
-	margin-top: 30px;
+	margin-top: 10px;
 	line-height: 1.7;
 	display: inline-block;
 	/*width: 60%;*/
