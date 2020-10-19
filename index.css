@@ -24,7 +24,7 @@ background: no-repeat center center scroll;
 background-size: cover;
 }
 .carousel-caption{
- bottom:120px;
+ bottom:200px;
  /*background-color:#f2c106;*/
 
 }
@@ -55,19 +55,35 @@ padding: 5px;
 }
 
 .two{
-	background-color:#f2c106;
-	padding-top: 50px;
+	background-color:rgb(235,117,47);
+	opacity: 0.9;
+	padding-top:30px;
+	text-align: center;
+	margin-top: 300px;
+	margin-left: 180px;
+	margin-right: 180px;
+	padding-bottom:1px; 
+
 }
 
 .two p{
 	text-align:block; 
 	margin-top: 10px;
-	line-height: 1.7;
-	display: inline-block;
+	line-height: 1.7;	
+/*	padding-bottom:20px;
+*/	/*text-align: center;*/
 	/*width: 60%;*/
 
 }
 /* About Page*/
+
+.who{
+background-image:url("images/one1.jpeg");
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+color: white;
+}
 .one{
 background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0,0,0,0.5)),url("images/na.jpeg");
 background-repeat: no-repeat;
