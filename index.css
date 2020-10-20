@@ -6,10 +6,10 @@ background: no-repeat center center scroll;
 background-size: cover;
 }*/
 
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@300&family=Roboto:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@300&family=Roboto:wght@500&family=Source+Sans+Pro:wght@600&display=swap');
 .navbar a{
-font-family: 'Roboto', sans-serif;
-font-size: 20px;
+font-family: 'Source Sans Pro', sans-serif;
+font-size: 18px;
 }
 
 .navbar a:hover{
