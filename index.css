@@ -10,6 +10,7 @@ background-size: cover;
 .navbar a{
 font-family: 'Source Sans Pro', sans-serif;
 font-size: 18px;
+font-weight: bold;
 }
 
 .navbar a:hover{
@@ -20,6 +21,19 @@ font-size: 18px;
 .navbar .navbar-nav .nav-link li a{
 	color: white;
 }
+
+@media only screen and (max-width:767px){
+.navbar.ml-auto{
+background-color: grey;
+} 
+.navbar-toggler{
+	padding: 1px 5px;
+	font-size: 18px;
+	line-height: 0.3;
+	background:#fff; 
+}	
+}
+
 .carousel-item{
 background: no-repeat center center scroll;
 -webkit-background-size:cover;
@@ -147,7 +161,7 @@ padding: 5px;
 }
 
 .forth{
-	background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0,0,0,0.5)),url("images/na.jpeg");
+	background-image:linear-gradient(rgba(0, 0, 0, 0.6), rgba(0,0,0,0.6)),url("images/na.jpeg");
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
