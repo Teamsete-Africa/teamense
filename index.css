@@ -16,7 +16,7 @@ font-weight: bold;
 .navbar{
 transition: 1s ease background-color;
 	}
-	
+
 /*@media only screen and (max-width:767px){
 .navbar .navbar-nav .ml-auto{
 background:gray;
@@ -51,13 +51,14 @@ font-family: poppins, sans-serif;
 }
 
 .carousel-caption p{
-width: 50%;
+width: 80%;
 margin:auto;
 font-size: 20px;
 line-height: 1.7;
 font-family: 'Open Sans', sans-serif;
 color: white;
 padding: 5px;
+/*width: fit-content;*/
 }
 
 
@@ -148,6 +149,7 @@ padding: 5px;
 	font-family: 'Poppins', sans-serif;
 }
 
+/*location*/
 .forth h1{
  	text-align: center;
  	padding-top: 70px;
@@ -167,6 +169,7 @@ padding: 5px;
 }
 .forth h4{
 	font-size: 30px;
+	width: fit-content;
 }
 .forth p{
     line-height: 1.7;
