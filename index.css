@@ -13,25 +13,23 @@ font-size: 18px;
 font-weight: bold;
 }
 
-.navbar a:hover{
-   color: red;
-}
- 
+.navbar{
+transition: 1s ease background-color;
+	}
+	
+/*@media only screen and (max-width:767px){
+.navbar .navbar-nav .ml-auto{
+background:gray;
 
-.navbar .navbar-nav .nav-link li a{
-	color: white;
+}*/
+
+.navbar .navbar-toggler{
+	background-color:transparent;
+	transition: 1s ease background-color;
 }
 
-@media only screen and (max-width:767px){
-.navbar.ml-auto{
-background-color: grey;
-} 
-.navbar-toggler{
-	padding: 1px 5px;
-	font-size: 18px;
-	line-height: 0.3;
-	background:#fff; 
-}	
+.navbar .navbar-toggler:hover {
+background-color: white;
 }
 
 .carousel-item{
