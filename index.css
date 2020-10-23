@@ -10,13 +10,20 @@ background-size: cover;
 .navbar a{
 font-family: 'Source Sans Pro', sans-serif;
 font-size: 18px;
-font-weight: bold;
+font-weight: lighter;
 }
 
 .navbar{
 transition: 1s ease background-color;
 	}
 
+.dropdown .dropdown-info{
+	background-color: #FBB917;
+}
+
+/*.dropdown .dropdown-info a{
+	color: white;
+}*/
 /*@media only screen and (max-width:767px){
 .navbar .navbar-nav .ml-auto{
 background:gray;
