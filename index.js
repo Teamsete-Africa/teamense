@@ -25,4 +25,7 @@ if(startchange.length){
 	});
 }
 
+// nairobi animation
+
+$
 });
