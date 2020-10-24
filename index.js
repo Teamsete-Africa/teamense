@@ -27,5 +27,11 @@ if(startchange.length){
 
 // nairobi animation
 
-$
+$(".forth").mouseenter(function(){
+	$(".Nairobi").fadeIn(1000)
+})
+$(".forth").mouseleave(function(){
+	$(".Nairobi").fadeOut(2000)
+})
+
 });
