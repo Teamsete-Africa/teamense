@@ -74,6 +74,17 @@ padding: 5px;
 	padding: 10px 30px;
 	display: inline-block;
 	margin-top: 15px;
+	background-color: transparent;
+	border:2px solid #FBB917;
+	letter-spacing: .1rem;
+	transition: .3s ease background-color;
+
+}
+
+.carousel-caption a:hover{
+	background-color:#FBB917;
+	color: white;
+	font-weight: bold;
 }
 
 .two{
@@ -173,6 +184,7 @@ padding: 5px;
 	background-size: cover;
 	background-position: center;
 	color:white;
+   
 }
 .forth h4{
 	font-size: 30px;
@@ -184,6 +196,10 @@ padding: 5px;
 	font-family: 'Poppins', sans-serif;
 	font-size: 18px;
 
+}
+
+.forth .Nairobi{
+	 transition: .3 ease fadeOut;
 }
 /*.one{
 background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0,0,0,0.5)),url("images/na.jpeg");
