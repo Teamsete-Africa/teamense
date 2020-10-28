@@ -206,10 +206,38 @@ padding: 5px;
 .prac h1{
 	text-align: center;
 	margin-top: 90px;
+	margin-bottom:50px;
 	font-size: 55px;
 	font-family: 'Poppins', sans-serif;
 	text-transform: uppercase;
+}
 
+/*what we do section*/
+.area{
+	background-image:linear-gradient(rgba(0, 0, 0, 0.6), rgba(0,0,0,0.6)),url("images/2.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	color:white;
+}
+
+.area .first{
+	text-align: center;
+	padding-top: 150px;
+	transition.3s ease background-color;
+	font-family: 'Poppins', sans-serif;
+	
+
+}
+
+.area .first:hover{
+	background-color:#FBB917;
+}
+.area .first a{
+	text-transform: lowercase;
+	border-radius: 18px;
+	padding: 12px 20px;
+}
 /*.one{
 background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0,0,0,0.5)),url("images/na.jpeg");
 background-repeat: no-repeat;

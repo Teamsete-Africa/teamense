@@ -34,4 +34,13 @@ $(".forth").mouseleave(function(){
 	$(".Nairobi").fadeOut(2000)
 })
 
+// practice area
+$(".first").mouseenter(function(){
+	$(".learn").css('background-color','white')
+	$(".learn").css('color','#FBB917')
+})
+$(".first").mouseleave(function(){
+	$(".learn").css('background-color','transparent')
+	$(".learn").css('color','white')
+})
 });
