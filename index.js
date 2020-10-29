@@ -43,14 +43,18 @@ $(".first").mouseenter(function(){
 
 $(".first").mouseleave(function(){
 	$(".learn").css('background-color','transparent')
-	$(".learn").css('color','white')
+	$(".learn").css('color','#a9a9a9')
 
 })
 
 $(".second").mouseenter(function(){
-	$(".learn").css('background-color','white'),5000
-	$(".learn").css('color','#FBB917')
+	$(".pro").css('background-color','white'),5000
+	$(".pro").css('color','#FBB917')
+})
 
+$(".second").mouseleave(function(){
+	$(".pro").css('background-color','transparent'),5000
+	$(".pro").css('color',' #a9a9a9')
 })
 
 });
