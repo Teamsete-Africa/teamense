@@ -237,12 +237,36 @@ padding: 5px;
 
 }
 
+.area .three{
+	text-align: center;
+	padding-top: 240px;
+	transition:.3s ease background-color;
+	font-family: 'Poppins', sans-serif;
+	text-transform: uppercase;
+	}
+
+.area .four{
+	text-align: center;
+	padding-top: 240px;
+	transition:.3s ease background-color;
+	font-family: 'Poppins', sans-serif;
+	text-transform: uppercase;
+	}
+
 .area .first:hover{
 	background-color:#FBB917;
 	}
 
 .area .second:hover{
-	background-color:#008000;
+	background-color:#C2B280;
+	}
+
+.area .three:hover{
+	background-color:#008080;
+	}
+
+.area .four:hover{
+	background-color:#306754;
 	}
 
 
