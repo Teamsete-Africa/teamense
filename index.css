@@ -223,25 +223,36 @@ padding: 5px;
 
 .area .first{
 	text-align: center;
-	padding-top: 200px;
+	padding-top: 250px;
 	transition:.3s ease background-color;
 	font-family: 'Poppins', sans-serif;
-	
+}
+
+.area .second{
+	text-align: center;
+	padding-top: 220px;
+	transition:.3s ease background-color;
+	font-family: 'Poppins', sans-serif;
+	text-transform: uppercase;
 
 }
 
 .area .first:hover{
 	background-color:#FBB917;
-	/*padding-bottom: 185px;	*/
-}
+	}
+
+.area .second:hover{
+	background-color:#008000;
+	}
 
 
-.area .first a{
+
+.area a{
 	text-transform: lowercase;
 	border-radius: 18px;
 	padding: 12px 20px;
 	transition: .4s ease background-color;
-	margin-bottom: 200px;
+	margin-bottom: 250px;
 	margin-top:20px;
 	
 }

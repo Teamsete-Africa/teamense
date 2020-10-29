@@ -41,17 +41,16 @@ $(".first").mouseenter(function(){
 
 })
 
-// $("#ict").mouseenter(function(){
-//   $("#lap").css('padding-top','5px')
-// })
-
-// $("#ict").mouseleave(function(){
-// 		$("#lap").css('padding-top','0px')
-// })
-
 $(".first").mouseleave(function(){
 	$(".learn").css('background-color','transparent')
 	$(".learn").css('color','white')
 
 })
+
+$(".second").mouseenter(function(){
+	$(".learn").css('background-color','white'),5000
+	$(".learn").css('color','#FBB917')
+
+})
+
 });
