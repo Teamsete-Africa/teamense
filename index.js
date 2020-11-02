@@ -57,4 +57,23 @@ $(".second").mouseleave(function(){
 	$(".pro").css('color',' #a9a9a9')
 })
 
+$(".three").mouseenter(function(){
+	$(".sol").css('background-color','white'),5000
+	$(".sol").css('color','#FBB917')
+})
+
+$(".three").mouseleave(function(){
+	$(".sol").css('background-color','transparent'),5000
+	$(".sol").css('color',' #a9a9a9')
+})
+
+$(".four").mouseenter(function(){
+	$(".con").css('background-color','white'),5000
+	$(".con").css('color','#FBB917')
+})
+
+$(".four").mouseleave(function(){
+	$(".con").css('background-color','transparent'),5000
+	$(".con").css('color',' #a9a9a9')
+})
 });

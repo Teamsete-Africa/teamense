@@ -280,6 +280,25 @@ padding: 5px;
 	margin-top:20px;
 	color: #a9a9a9;	
 }
+
+.project{
+		font-family: 'Poppins', sans-serif;
+		background-color:#C2B280;
+		/*background-color: wheat;*/
+}
+
+.project h5{
+	text-transform: uppercase;
+}
+
+.training{
+	font-family: 'Poppins', sans-serif;
+	background-color:#FBB917;
+}
+.training h5{
+	text-transform: uppercase;
+	color: white;
+}
 /*.one{
 background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0,0,0,0.5)),url("images/na.jpeg");
 background-repeat: no-repeat;
