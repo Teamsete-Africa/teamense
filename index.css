@@ -299,6 +299,25 @@ padding: 5px;
 	text-transform: uppercase;
 	color: white;
 }
+.analytics{
+	font-family: 'Poppins', sans-serif;
+	background-color:#008080;
+}
+
+.analytics h5{
+	text-transform: uppercase;
+	color: white;
+}
+
+.cons{
+	font-family: 'Poppins', sans-serif;
+	background-color:#306754;
+}
+
+.cons h5{
+	text-transform: uppercase;
+	color: white;
+}
 /*.one{
 background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0,0,0,0.5)),url("images/na.jpeg");
 background-repeat: no-repeat;
