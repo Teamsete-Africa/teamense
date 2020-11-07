@@ -68,7 +68,9 @@ padding: 5px;
 /*width: fit-content;*/
 }
 
-
+.carousel-caption #comp{
+	width: 95%;
+}
 .carousel-caption a{
 	text-transform: uppercase;
 	padding: 10px 30px;
