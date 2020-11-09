@@ -393,6 +393,9 @@ display: block;
 }
 
 
+section{
+font-family: 'Poppins', sans-serif;
+}
 /*.image-cropper {
 
     width: 200px;
