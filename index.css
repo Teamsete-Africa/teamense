@@ -380,3 +380,33 @@ line-height: 1.7;
 padding-left: 50px;
 display: block;
 }
+
+/*contact us*/
+
+.con h1{
+	text-align: center;
+	margin-top: 90px;
+	margin-bottom:50px;
+	font-size: 55px;
+	font-family: 'Poppins', sans-serif;
+	text-transform: uppercase;
+}
+
+
+/*.image-cropper {
+
+    width: 200px;
+    display: block;
+    -webkit-border-radius: 100px;
+    -moz-border-radius:100px;
+    border-radius:100px;
+    overflow:hidden;
+    margin: 0px auto; 
+     }
+
+.my-picture 
+    {
+        display: block;
+        height: auto;
+        width: 100%;
+    }*/
