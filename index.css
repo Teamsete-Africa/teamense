@@ -396,6 +396,10 @@ display: block;
 section{
 font-family: 'Poppins', sans-serif;
 }
+
+section li a:hover{
+	color: white;
+}
 /*.image-cropper {
 
     width: 200px;

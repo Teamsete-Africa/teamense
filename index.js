@@ -1,7 +1,7 @@
 
 
 $(document).ready(function(){		
-	$("li a").hover(function(){
+	$("nav li a").hover(function(){
 	$(this).css("color","orange");
 },
 function(){
