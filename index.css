@@ -400,6 +400,42 @@ font-family: 'Poppins', sans-serif;
 section li a:hover{
 	color: white;
 }
+
+.con-p{
+	font-family: 'Poppins', sans-serif;
+}
+
+.con-p p{
+	font-size: 15px;
+	line-height: 1.5;
+	width: 70%;
+}
+
+.jumbotron{
+	background-color: white;
+}
+
+.email-btn{
+	text-transform: uppercase;
+	display: inline-block;
+	border-radius: 18px;
+	background-color: #FBB917;
+	border:1px solid black;
+	letter-spacing: .1rem;
+	transition: .3s ease;
+	transition-property: background-color, font-weight;
+	font-family: 'Poppins', sans-serif;
+
+ 
+}
+.email-btn:hover{
+	background-color:black;
+	color: white;
+	font-weight: bold;
+}
+.reach{
+		font-family: 'Poppins', sans-serif;
+}
 /*.image-cropper {
 
     width: 200px;
