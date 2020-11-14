@@ -405,15 +405,12 @@ section li a:hover{
 	font-family: 'Poppins', sans-serif;
 }
 
-.con-p p{
-	font-size: 15px;
+.con-p  p{
+	font-size: 16px;
 	line-height: 1.5;
-	width: 70%;
+	width: 80%;
 }
 
-.jumbotron{
-	background-color: white;
-}
 
 .email-btn{
 	text-transform: uppercase;
@@ -425,7 +422,7 @@ section li a:hover{
 	transition: .3s ease;
 	transition-property: background-color, font-weight;
 	font-family: 'Poppins', sans-serif;
-
+    
  
 }
 .email-btn:hover{
@@ -434,7 +431,11 @@ section li a:hover{
 	font-weight: bold;
 }
 .reach{
-		font-family: 'Poppins', sans-serif;
+	font-family: 'Poppins', sans-serif;
+}
+
+.reach p{
+  font-size: 16px;
 }
 /*.image-cropper {
 
