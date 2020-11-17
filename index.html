@@ -201,8 +201,8 @@
           	 <i class="fas fa-map-marker-alt fa-4x mb-3"></i>
           	<h4>Nairobi</h4>
           	<p>Based in Nairobi, Kenya Teamense Africa has a regional focus to serve, and
-				promote </br>the growth and development of ICT and innovation in the Sub-saharan Africa by; empowering
-				African Organisations and</br> the youth of Africa, while providing consultancy to help promote business
+				promote the growth and development of ICT and innovation in the Sub-saharan Africa by; empowering
+				African Organisations and the youth of Africa, while providing consultancy to help promote business
 				development in Africa</p>
            </div>
        </div>
@@ -545,9 +545,7 @@
             <i class="fab fa-linkedin-in fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
           </a>
           <!--Instagram-->
-          <a class="ins-ic">
-            <i class="fab fa-instagram fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
-          </a>
+          
           <!--Pinterest-->
         </div>
       </div>
@@ -564,12 +562,12 @@
       <div class="col-md-4 py-5 reach text-center">
        <h5 class="font-weight-bold ">Stay<span style="color: black;"> in </span>touch</h5>
            <p class="text-center"> Monday - Friday: 0900 - 1700</br>
-            Saturday: CLOSED
+            Saturday: CLOSED</br>
             Sunday: CLOSED</br>
 
-            Teamense Africa, Ltd.
+            Teamense Africa, Ltd.</br>
             P.O. Box 000 - 00100 Nairobi
-            Kenya
+            Kenya</br>
 
             info@teamense.africa</br>
 
@@ -620,41 +618,41 @@
         </button>
       </div>
       <!--Body-->
-      <div class="modal-body">
+      <div class="modal-body" id="contact-form" name="contact-form" action="mail.php" method="POST">
 
         <!-- Material input name -->
         <div class="md-form form-sm">
           <i class="fa fa-envelope prefix"></i>
-          <input type="text" id="materialFormNameModalEx1" class="form-control form-control-sm">
-          <label for="materialFormNameModalEx1">Your name</label>
+          <input type="text" id="materialFormNameModalEx1 name" name="name" class="form-control form-control-sm">
+          <label for="materialFormNameModalEx1 name">Your name</label>
         </div>
 
         <!-- Material input email -->
         <div class="md-form form-sm">
           <i class="fa fa-lock prefix"></i>
-          <input type="password" id="materialFormEmailModalEx1" class="form-control form-control-sm">
-          <label for="materialFormEmailModalEx1">Your email</label>
+          <input type="password" id="materialFormEmailModalEx1 email" name="email" class="form-control form-control-sm">
+          <label for="materialFormEmailModalEx1 email">Your email</label>
         </div>
 
         <!-- Material input subject -->
         <div class="md-form form-sm">
           <i class="fas fa-tag prefix"></i>
-          <input type="text" id="materialFormSubjectModalEx1" class="form-control form-control-sm">
-          <label for="materialFormSubjectModalEx1">Subject</label>
+          <input type="text" id="materialFormSubjectModalEx1 subject" name="subject" class="form-control form-control-sm">
+          <label for="materialFormSubjectModalEx1 subject">Subject</label>
         </div>
 
         <!-- Material textarea message -->
         <div class="md-form form-sm">
           <i class="fas fa-pen prefix"></i>
-          <textarea type="text" id="materialFormMessageModalEx1"
+          <textarea type="text" id="materialFormMessageModalEx1 message" name="message" 
             class="md-textarea form-control"></textarea>
-          <label for="materialFormMessageModalEx1">Your message</label>
+          <label for="materialFormMessageModalEx1 message">Your message</label>
         </div>
-        
+          
         <div class="text-center mt-4 mb-2 white-text">
-          <button class="btn" style="background-color:  #FBB917">Send
+          <a class="btn" style="background-color:  #FBB917" onclick="document.getElementById('contact-form').submit();">Send
             <i class="fas fa-send ml-2"></i>
-          </button>
+          </a>
         </div>
 
       </div>
