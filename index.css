@@ -449,6 +449,10 @@ section li a:hover{
 	font-family: 'Poppins', sans-serif;
 
 }
+
+.con-p .icon i:hover{
+	color: blue;
+}
 /*.image-cropper {
 
     width: 200px;
