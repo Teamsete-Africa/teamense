@@ -460,8 +460,8 @@ section li a:hover{
 .invest{
     background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0,0,0,0.5)),url("images/inv.jpeg");
     background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
+    background-size:cover;
+    background-position:center;
     color:white; 
     }
 
@@ -483,4 +483,8 @@ margin-top:100px;
 margin-bottom:100px;
 text-align: center;
 letter-spacing: 1rem;
+ }
+
+ .about-invest{
+ font-family: 'Poppins', sans-serif;
  }
