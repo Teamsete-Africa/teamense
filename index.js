@@ -76,4 +76,23 @@ $(".four").mouseleave(function(){
 	$(".con").css('background-color','transparent'),5000
 	$(".con").css('color',' #a9a9a9')
 })
+
+
+
+// var scroll_start = 0
+// var startchange = $('.intro');
+// var offset = startchange.offset();
+// if(startchange.length){
+// 	$(document).scroll(function(){
+// 		scroll_start=$(document).scrollTop();
+// 		if (scroll_start > offset.top) {
+// 			$(".fixed-top").css('background-color','#0C090A');
+// 		}
+// 		else{
+// 			 $('.fixed-top').css('background-color', 'transparent');
+
+// 		}
+// 	});
+// }
+
 });
