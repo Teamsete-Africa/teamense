@@ -383,7 +383,32 @@ line-height: 1.7;
 padding-left: 50px;
 display: block;
 }
+/*documents*/
+.card .down{
+	text-transform: uppercase;
+	display: inline-block;
+	background-color: #FBB917;
+	border:1px solid black;
+	letter-spacing: .1rem;
+	transition: .3s ease;
+	transition-property: background-color, font-weight;
+	font-family: 'Poppins', sans-serif;
+    
+}
+.card .down:hover{
+	background-color:black;
+	color:white;
+	font-weight: bold;
+}
+.card p{
+		font-family: 'Poppins', sans-serif;
 
+}
+
+.card{
+	margin-top: 100px;
+	margin-bottom:50px;
+}
 /*contact us*/
 
 .cone h1{
