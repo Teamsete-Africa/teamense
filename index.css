@@ -516,3 +516,20 @@ letter-spacing: 1rem;
  	background-repeat: no-repeat;
  	min-height: 500px;
  }
+
+/*quote*/
+
+ #quote .quote-content{
+ 	display: flex;
+ 	padding: 300px 0;
+ 	margin: 0 auto;
+ 	text-align: center;
+ 	max-width: 1200px;
+ 	flex-direction: column;
+ }
+
+ #quote  .quote-content h2{
+ 	line-height: 1.4;
+ 	font-family: 'Poppins', sans-serif;
+ 	font-weight: lighter;
+ }
