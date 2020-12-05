@@ -558,3 +558,17 @@ letter-spacing: 1rem;
  	font-family: 'Poppins', sans-serif;
  	font-weight: lighter;
  }
+
+
+form .sub-btn .btn{
+	background-color: white;
+}
+
+form .sub-btn .btn:hover{
+	background-color: black;
+	color: white;
+}
+
+form{
+	margin-bottom: 50px;
+}
