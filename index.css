@@ -395,8 +395,9 @@ display: block;
 	font-family: 'Poppins', sans-serif;
     
 }
-.up{
-	padding:30px;
+.card-one{
+	padding:60px;
+	color: red;
 }
 .card .down:hover{
 	background-color:black;
