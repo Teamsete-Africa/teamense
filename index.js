@@ -78,21 +78,27 @@ $(".four").mouseleave(function(){
 })
 
 
+// invest page navbar
 
-// var scroll_start = 0
-// var startchange = $('.intro');
-// var offset = startchange.offset();
-// if(startchange.length){
-// 	$(document).scroll(function(){
-// 		scroll_start=$(document).scrollTop();
-// 		if (scroll_start > offset.top) {
-// 			$(".fixed-top").css('background-color','#0C090A');
-// 		}
-// 		else{
-// 			 $('.fixed-top').css('background-color', 'transparent');
-
-// 		}
-// 	});
-// }
+$(function () {
+  $(document).scroll(function () {
+    var $nav = $(".invest-navbar");
+    $nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
+  });
+});
 
 });
+
+// var myNav = document.getElementById('invest-navbar');
+// window.onscroll = function () { 
+//     "use strict";
+//      if (document.body.scrollTop >= 200 || document.documentElement.scrollTop >= 200 )
+//  {
+//         invest-navbar.classList.add("nav-colored");
+//        invest-navbar.classList.remove("nav-transparent");
+//     } 
+//     else {
+//        invest-navbar.classList.add("nav-transparent");
+//         myNav.classList.remove("nav-colored");
+//     }
+// }; 

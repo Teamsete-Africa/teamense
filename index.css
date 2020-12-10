@@ -486,6 +486,11 @@ section li a:hover{
 
 /*invest in us page*/
 
+.invest-navbar.scrolled {
+  background-color: #0C090A !important;
+  transition: background-color 200ms linear;
+}
+
 .invest{
     background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0,0,0,0.5)),url("images/inv.jpeg");
     background-repeat: no-repeat;
@@ -575,4 +580,6 @@ form .sub-btn .btn:hover{
 
 form{
 	margin-bottom: 50px;
+	font-family: 'Poppins', sans-serif;
 }
+
