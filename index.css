@@ -241,7 +241,23 @@ padding: 5px;
 .Nairobi p{
    width:60%;      
 }
+/*what we do*/
+.card{
+ font-family: 'Poppins', sans-serif;
+}
+.card .card-title{
+	text-transform: uppercase;
+}
+.what-head h1{
+	text-align: center;
+	margin-top: 90px;
+	margin-bottom:50px;
+	font-size: 55px;
+	font-family: 'Poppins', sans-serif;
+	text-transform: uppercase;
+}
 
+/*what we do end*/
 .prac h1{
 	text-align: center;
 	margin-top: 90px;
