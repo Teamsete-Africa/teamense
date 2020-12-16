@@ -620,7 +620,8 @@ form{
 }
 
 .pie-chart{
- text-align: center;
+  padding-top: 300px;
+  text-align: center;
 }
 .pie-chart h5{
 	color: white;
@@ -630,3 +631,7 @@ form{
 
 }
  
+ 
+.list-unstyled li i:hover{
+	color: blue;
+}
