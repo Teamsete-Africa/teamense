@@ -621,14 +621,12 @@ form{
 
 .pie-chart{
  text-align: center;
- margin: 0 auto;
 }
 .pie-chart h5{
 	color: white;
 	line-height: 1.7;
  	font-family: 'Poppins', sans-serif;
  	font-weight: bold;
- 	/*margin-bottom: 90px;*/
 
 }
  
