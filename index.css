@@ -665,3 +665,16 @@ form{
  	background-repeat: no-repeat;
  	min-height: 500px;
  }
+
+ #form label{
+ 	color: white;
+ }
+
+ #form .sub-btn .btn{
+	background-color: #FBB917;
+}
+
+#form .sub-btn .btn:hover{
+	background-color: black;
+	color: white;
+}
