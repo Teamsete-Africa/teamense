@@ -431,10 +431,10 @@ display: block;
 	font-family: 'Poppins', sans-serif;
     
 }
-.card-one{
+/*.card-one{
 	padding:60px;
 	color: red;
-}
+}*/
 .card .down:hover{
 	background-color:black;
 	color:white;
@@ -578,8 +578,8 @@ letter-spacing: 1rem;
  	font-weight: bold;
  }
 
- .parallax{
- 	background-image: url('images/mn.jpg');
+ .paralla{
+ 	background-image: url('images/int.jpg');
  	background-position: center;
  	background-attachment: fixed;
  	background-size: cover;
@@ -635,3 +635,24 @@ form{
 .list-unstyled li i:hover{
 	color: blue;
 }
+
+
+/*voluntery page*/
+
+.volunteer{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0,0,0,0.5)),url("images/vol.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position:center;
+    color:white; 
+    }
+
+.intro-vol{
+ 		font-family: 'Poppins', sans-serif;
+ 		padding-top: 520px;
+ 		padding-bottom: 50px;
+ }   
+
+ .intro-vol .intro-text{
+ 	margin-left: 50px;
+ }
