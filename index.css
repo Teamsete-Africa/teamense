@@ -420,7 +420,7 @@ padding-left: 50px;
 display: block;
 }
 /*documents*/
-.card .down{
+#doc .down{
 	text-transform: uppercase;
 	display: inline-block;
 	background-color: #FBB917;
@@ -429,25 +429,26 @@ display: block;
 	transition: .3s ease;
 	transition-property: background-color, font-weight;
 	font-family: 'Poppins', sans-serif;
+	animation-delay: 2s;
     
 }
 /*.card-one{
 	padding:60px;
 	color: red;
 }*/
-.card .down:hover{
-	background-color:black;
-	color:white;
+#doc .down:hover{
+	background-color:white;
+	color:#FBB917;
 	font-weight: bold;
+	border:1px solid #FBB917;
 }
-.card p{
+#doc p{
 		font-family: 'Poppins', sans-serif;
 
 }
 
-.card{
-	margin-top: 100px;
-	margin-bottom:50px;
+#doc{
+	border-radius: 10px;
 }
 /*contact us*/
 
