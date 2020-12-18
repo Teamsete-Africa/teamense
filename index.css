@@ -578,8 +578,8 @@ letter-spacing: 1rem;
  	font-weight: bold;
  }
 
- .paralla{
- 	background-image: url('images/int.jpg');
+ .parallax{
+ 	background-image: url('images/mn.jpg');
  	background-position: center;
  	background-attachment: fixed;
  	background-size: cover;
@@ -655,4 +655,13 @@ form{
 
  .intro-vol .intro-text{
  	margin-left: 50px;
+ }
+
+ .paralla{
+ 	background-image: url('images/int.jpg');
+ 	background-position: center;
+ 	background-attachment: fixed;
+ 	background-size: cover;
+ 	background-repeat: no-repeat;
+ 	min-height: 500px;
  }
