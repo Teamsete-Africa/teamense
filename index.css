@@ -679,3 +679,15 @@ form{
 	background-color: black;
 	color: white;
 }
+
+#msg{
+padding-top: 300px;
+text-align: center;	
+}
+
+#msg h5{
+	color: white;
+	font-family: 'Poppins', sans-serif;
+ 	font-weight: bold;
+ 	margin-top: 20px;
+}
