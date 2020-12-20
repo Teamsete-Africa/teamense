@@ -691,3 +691,69 @@ text-align: center;
  	font-weight: bold;
  	margin-top: 20px;
 }
+
+/*donate page*/
+
+#donate{
+	background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0,0,0,0.5)), url('images/don.jpg');
+ 	background-position: center;
+ 	background-attachment: fixed;
+ 	background-size: cover;
+ 	background-repeat: no-repeat;
+ 	min-height: 600px;
+}
+
+#donate h3{
+  position: absolute;
+  z-index: 1000;
+  top:350px;
+  left: 100px;
+  color: white;
+  font-family: 'Poppins', sans-serif;
+  letter-spacing: 0.4rem;
+  font-weight: bold;
+  font-size: 40px;
+}
+
+#donate-info a{
+	position: absolute;
+	z-index: 1000;
+	color: white;
+	text-transform: uppercase;
+	padding: 10px 20px;
+	display: inline-block;
+	margin-top: 50px;
+	background-color: transparent;
+	border:2px solid #FBB917;
+	letter-spacing: .1rem;
+	transition: .3s ease;
+	transition-property: background-color, font-weight;
+
+}
+
+#donate-info a:hover{
+	background-color:white;
+	color: #FBB917;
+	font-weight: bold;
+	border:2px solid white;
+
+}
+
+#donate-info p{
+	position: absolute;
+	z-index: 1000;
+	top:420px;
+	left: 100px;
+	color: white;
+	font-family: 'Poppins', sans-serif;
+
+}
+
+.parall{
+ 	background-image: url('images/africa.jpg');
+ 	background-position: center;
+ 	background-attachment: fixed;
+ 	background-size: cover;
+ 	background-repeat: no-repeat;
+ 	min-height: 500px;
+ }
