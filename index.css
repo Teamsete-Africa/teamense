@@ -616,12 +616,12 @@ form .sub-btn .btn:hover{
 }
 
 form{
-	margin-bottom: 20px;
+	margin-bottom: 10px;
 	font-family: 'Poppins', sans-serif;
 }
 
 .pie-chart{
-  padding-top: 300px;
+  padding-top:200px;
   text-align: center;
 }
 .pie-chart h5{
