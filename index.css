@@ -17,6 +17,10 @@ font-weight: lighter;
 transition: 1s ease background-color;
 	}
 
+.navbar img{
+	max-width: 100%;
+    height: auto;
+}
 .dropdown .dropdown-info{
 	background-color: #FBB917;
 }
