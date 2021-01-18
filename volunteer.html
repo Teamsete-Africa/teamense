@@ -25,7 +25,7 @@
 
 <div class="volunteer">
 <nav class="navbar navbar-expand-lg navbar-light fixed-top invest-navbar scrolled">
-    <img src="images/logo.png" id="logo" alt="logo" style="width:50px;height:50px;">
+    <img src="images/logo.png" id="logo" alt="logo" style="width:40px;height:40px;">
 	<div class="container">
   <a class="navbar-brand" href="index.html" style="color: white;">Teamsete Africa</a>
   <button class="navbar-toggler white-text" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -92,25 +92,28 @@
 <div class="card-image">
 
 	<div class="card-body">
-    <form>
+    <form action="mail.php" method="POST">
       <p class="h4 text-center py-4 mt-5 white-text">Fill in to Volunteers </p>
 
       <!-- Default input name -->
       <label for="defaultFormCardNameEx" class="white-text font-weight-light">Volunteer Name</label>
-      <input type="text" id="defaultFormCardNameEx" class="form-control">
+      <input type="text" id="defaultFormCardNameEx" name="name" class="form-control">
 
       <br>
 
       <!-- Default input email -->
       <label for="defaultFormCardEmailEx" class=" font-weight-light mt-2">Email Address</label>
-      <input type="email" id="defaultFormCardEmailEx" class="form-control">
+      <input type="email" id="defaultFormCardEmailEx" name="email" class="form-control">
 
 
 	  <label for="defaultFormCardEmailEx" class=" font-weight-light mt-3">Contact Number</label>
-      <input type="email" id="defaultFormCardEmailEx" class="form-control">
+      <input type="number" id="defaultFormCardEmailEx" name="contact" class="form-control">
+
+      <label for="defaultFormCardNameEx" class="white-text font-weight-light">Subject</label>
+      <input type="text" id="defaultFormCardNameEx" name="subject" class="form-control">
 
       <label for="defaultFormMessageModalEx" class=" font-weight-bold mt-3">Message</label>
-      <textarea type="text" id="defaultFormMessageModalEx" class="md-textarea form-control"></textarea>
+      <textarea type="text" id="defaultFormMessageModalEx" name="message" class="md-textarea form-control"></textarea>
 
 
       <div class="text-center py-4 mt-3 sub-btn">
