@@ -448,6 +448,7 @@ display: block;
 }
 #doc p{
 		font-family: 'Poppins', sans-serif;
+		
 
 }
 
@@ -776,26 +777,18 @@ text-align: center;
  }
 
 
- #donation-means .donate-btn{
+ #donation-means .don{
  	text-transform: uppercase;
-	padding: 10px 20px;
-	display: inline-block;
-	background-color: transparent;
-	color: white;
-	border:2px solid #FBB917;
 	letter-spacing: .1rem;
-	transition: .3s ease;
-	transition-property: background-color, font-weight;
-    margin-top: 20px;
  }
 
- #donation-means .donate-btn:hover{
+ /* #donation-means .donate-btn:hover{
 	background-color:white;
 	color: #FBB917;
 	font-weight: bold;
 	border:2px solid white;
 
-}
+} */
 
 .page-footer{
 	margin-top: 150px;

@@ -10,7 +10,7 @@ function(){
 
 //navbar background color
 var scroll_start = 0
-var startchange = $('#about');
+var startchange = $('#turn');
 var offset = startchange.offset();
 if(startchange.length){
 	$(document).scroll(function(){
