@@ -424,11 +424,22 @@ padding-left: 50px;
 display: block;
 }
 /*documents*/
-#doc .down{
+
+
+#documents  h1{
+	text-align: center;
+	margin-top: 100px;
+	margin-bottom:50px;
+	font-size: 55px;
+	font-family: 'Poppins', sans-serif;
+	text-transform: uppercase;
+}
+
+#documents section .down{
 	text-transform: uppercase;
 	display: inline-block;
-	background-color: #FBB917;
-	border:1px solid black;
+	background-color: white;
+	border:2px solid #FBB917;
 	letter-spacing: .1rem;
 	transition: .3s ease;
 	transition-property: background-color, font-weight;
@@ -436,19 +447,19 @@ display: block;
 	animation-delay: 2s;
     
 }
-/*.card-one{
-	padding:60px;
-	color: red;
-}*/
-#doc .down:hover{
-	background-color:white;
-	color:#FBB917;
+
+#documents .down:hover{
+	background-color:#FBB917;
+	color:white;
 	font-weight: bold;
-	border:1px solid #FBB917;
+	border:1px solid black;
 }
-#doc p{
-		font-family: 'Poppins', sans-serif;
-		
+#documents section p{
+	font-family: 'Poppins', sans-serif;
+	font-weight:bold;
+	
+
+	
 
 }
 
