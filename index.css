@@ -532,7 +532,13 @@ section li a:hover{
 	color: blue;
 }
 
+#contact li a i{
+	color: grey;
+}
 
+#contact li a i:hover{
+	color: blue;
+}
 /*invest in us page*/
 
 .invest-navbar.scrolled {
