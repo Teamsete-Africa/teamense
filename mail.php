@@ -1,5 +1,8 @@
 <?php
 
+error_reporting(-1);
+ini_set('display_errors', 'On');
+set_error_handler("var_dump");
 echo "<pre>";
 
 print_r($_POST);
@@ -20,14 +23,14 @@ $message = $_POST['message'];
 
 
 // $content="From: $name \n Email: $email \n Contact: $contact \n Message: $message";
-$to = "josephochieng812@gmail.com";
+$to = "info@teamsete.com";
 $content="";
 $content.="From: ".$name. "\r\n";
 $content.="Email: ".$email. "\r\n";
 $content.="Contact: ".$contact. "\r\n";
 $content.="Message: ".$message. "\r\n";
 // $mailheader = "From: $email \r\n";
-mail('josephochieng812@gmail.com', $subject, $content);
+mail($to, $subject, $content);
 echo "Email sent!";
 
 ?>
