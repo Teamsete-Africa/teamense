@@ -87,7 +87,16 @@ $(function () {
   });
 });
 
-});
+
+
+// volunter page
+$( ".btn" ).click(function() {
+	$("success").fadeIn( 400 ).delay(800).fadeOut(300);
+  });
+
+  });
+
+
 
 // var myNav = document.getElementById('invest-navbar');
 // window.onscroll = function () { 

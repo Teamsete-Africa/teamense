@@ -1,36 +1,55 @@
 <?php
 
-error_reporting(-1);
-ini_set('display_errors', 'On');
-set_error_handler("var_dump");
-echo "<pre>";
+    // Only process POST reqeusts.
+    if ($_SERVER["REQUEST_METHOD"] == "POST") {
+        // Get the form fields and remove whitespace.
+        $name = strip_tags(trim($_POST["name"]));
+				$name = str_replace(array("\r","\n"),array(" "," "),$name);
+        $email = filter_var(trim($_POST["email"]), FILTER_SANITIZE_EMAIL);
+        $contact=trim($_POST["contact"]);
+        $subject = trim($_POST["subject"]);
+        $message = trim($_POST["message"]);
 
-print_r($_POST);
+        // Check that data was sent to the mailer.
+        if ( empty($name) OR empty($subject) OR empty($contact) OR empty($message) OR !filter_var($email, FILTER_VALIDATE_EMAIL)) {
+            // Set a 400 (bad request) response code and exit.
+            http_response_code(400);
+            echo "Please complete the form and try again.";
+            exit;
+        }
 
-echo '</pre>';
+        // Set the recipient email address.
+        // FIXME: Update this to your desired email address.
+        $recipient = "mdsalim400@gmail.com";
 
+        // Set the email subject.
+        $subject = "New contact from $name";
 
-if(isset( $_POST['name']))
-$name = $_POST['name'];
-if(isset( $_POST['email']))
-$email = $_POST['email'];
-if(isset( $_POST['contact']))
-$contact = $_POST['contact'];
-if(isset( $_POST['subject']))
-$subject = $_POST['subject'];
-if(isset( $_POST['message'])) 
-$message = $_POST['message'];
+        // Build the email content.
+        $email_content = "First Name: $name\n";
+        $email_content .= "Email: $email\n\n";
+        $email_content = "Contact: $contact\n";
+        $email_content .= "Subject: $subject\n\n";
+        $email_content .= "Message:\n$message\n";
 
+        // Build the email headers.
+        $email_headers = "From: $name <$email>";
 
-// $content="From: $name \n Email: $email \n Contact: $contact \n Message: $message";
-$to = "info@teamsete.com";
-$content="";
-$content.="From: ".$name. "\r\n";
-$content.="Email: ".$email. "\r\n";
-$content.="Contact: ".$contact. "\r\n";
-$content.="Message: ".$message. "\r\n";
-// $mailheader = "From: $email \r\n";
-mail($to, $subject, $content);
-echo "Email sent!";
+        // Send the email.
+        if (mail($recipient, $subject, $email_content, $email_headers)) {
+            // Set a 200 (okay) response code.
+            http_response_code(200);
+            echo "Thank You! Your message has been sent.";
+        } else {
+            // Set a 500 (internal server error) response code.
+            http_response_code(500);
+            echo "Oops! Something went wrong and we couldn't send your message.";
+        }
+
+    } else {
+        // Not a POST request, set a 403 (forbidden) response code.
+        http_response_code(403);
+        echo "There was a problem with your submission, please try again.";
+    }
 
 ?>

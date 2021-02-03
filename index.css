@@ -710,6 +710,15 @@ text-align: center;
  	margin-top: 20px;
 }
 
+.error{ color: red; }
+
+.success { 
+	display: none;
+	/* background-color: white; */
+	font-family: 'Poppins', sans-serif;
+	letter-spacing: .1rem;
+	color:white; 
+}
 /*donate page*/
 
 #donate{
@@ -785,8 +794,8 @@ text-align: center;
 
  #donation-means p{
  	font-family: 'Poppins', sans-serif;
- 	padding-left: 40px;
- 	line-height: 1.7rem;
+	line-height: 1.7rem;
+	margin-top: 50px; 
  }
 
 
