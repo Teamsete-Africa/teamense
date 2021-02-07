@@ -90,13 +90,61 @@ $(function () {
 
 
 // volunter page
-$( ".btn" ).click(function() {
-	$("success").fadeIn( 400 ).delay(800).fadeOut(300);
-  });
 
-  });
+$(function(){
 
+	// get the form
+	var form = $('#ajax-contact');
 
+	// get the message div 
+    var formMessages= $('.form-messages');
+    
+	// setting up an event listner for contact form
+	$(form).submit(function(event){
+    //   stop submission of an empty form
+	  event.preventDefault(); 
+
+	// serialize the form data
+	var formData = $(form).serialize();
+
+	// submit the form using AJAX
+	$.ajax({
+		type:'POST',
+		url: $(form).attr('action'),
+		data: formData
+	})
+	.done(function(response){
+		// ensuring div 'success' class exists.
+		$(formMessages).removeClass('error');
+		$(formMessages).addClass('success');
+
+		// set the message Text
+		$(formMessages).text(response);
+
+		// clear the form
+		$('#name').val('');
+        $('#email').val('');
+    	$('#contact').val('');
+		$('#subject').val('');
+		$('#message').val('');
+	})
+	.fail(function(data){
+		$(formMessages).removeClass('success');
+    	$(formMessages).addClass('error');
+
+		// set the message
+		if (data.responseText !== '') {
+			$(formMessages).text(data.responseText);
+		}
+		else{
+			$(formMessages).text('Oops! An error occured and your message could not be sent.');
+		}
+	});
+	});
+
+});
+
+});
 
 // var myNav = document.getElementById('invest-navbar');
 // window.onscroll = function () { 

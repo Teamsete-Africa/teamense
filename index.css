@@ -713,7 +713,7 @@ text-align: center;
 .error{ color: red; }
 
 .success { 
-	display: none;
+	/* display: none;	 */
 	/* background-color: white; */
 	font-family: 'Poppins', sans-serif;
 	letter-spacing: .1rem;

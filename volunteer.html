@@ -93,36 +93,39 @@
 <div class="card-image">
  <!-- <?php include ('mail.php');?>  -->
 	<div class="card-body">
-    <form action="mail.php" method="POST" name="vol-form">
+    <form action="mail.php" method="POST" id="ajax-contact">
       <p class="h4 text-center py-4 mt-5 white-text">Fill in to Volunteers </p>
 
+      <div class="form-messages">
+        <p class="success"></p>
+        <p class="error"></p>
+      </div>
       <!-- Default input name -->
       <fieldset>
       <label for="defaultFormCardNameEx" class="white-text font-weight-light">Volunteer Name</label>
-      <input type="text" id="defaultFormCardNameEx" name="name"   class="form-control" required>
+      <input type="text" id="name" name="name"   class="form-control" required>
     </fieldset>
       <br> 
 
       <!-- Default input email -->
       <fieldset>
       <label for="defaultFormCardEmailEx" class=" font-weight-light mt-2">Email Address</label>
-      <input type="text" id="defaultFormCardEmailEx" name="email"   class="form-control" required>
-     <span class="error"><?=$emailErr ?></span>
+      <input type="text" id="email" name="email"   class="form-control" required>
     </fieldset>
 
       <fieldset>
 	    <label for="defaultFormCardEmailEx" class=" font-weight-light mt-3">Contact Number</label>
-      <input type="phone" id="defaultFormCardEmailEx" name="contact"   class="form-control" required>
+      <input type="phone" id="contact" name="contact"   class="form-control" required>
     </fieldset>
 
       <fieldset>
       <label for="defaultFormCardNameEx" class="white-text font-weight-light">Subject</label>
-      <input type="text" id="defaultFormCardNameEx" name="subject" class="form-control" required>
+      <input type="text" id="subject" name="subject" class="form-control" required>
     </fieldset>
 
       <fieldset>
       <label for="defaultFormMessageModalEx" class=" font-weight-bold mt-3">Message</label>
-      <textarea type="text" id="defaultFormMessageModalEx" name="message" class="md-textarea form-control" required> </textarea>
+      <textarea type="text" id="message" name="message" class="md-textarea form-control" required> </textarea>
      
     </fieldset>
 
@@ -133,7 +136,6 @@
            <p>Message sent, thank you for contacting us!</p>
          </div>    -->
       </div>
-      <div class="success"><?= $success;?></div>
     </form>
 
     <!-- Default form subscription -->
