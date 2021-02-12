@@ -782,7 +782,7 @@
         <!-- Material input subject -->
         <div class="md-form form-sm">
           <i class="fas fa-tag prefix"></i>
-          <input type="text" id="materialFormSubjectModalEx1 subject" name="subject" class="form-control form-control-sm">
+          <input type="text" id="materialFormSubjectModalEx1 subject" name="subject" class="form-control form-control-sm" requiredz>
           <label for="materialFormSubjectModalEx1 subject">Subject</label>
         </div>
 
@@ -790,14 +790,16 @@
         <div class="md-form form-sm">
           <i class="fas fa-pen prefix"></i>
           <textarea type="text" id="materialFormMessageModalEx1 message" name="message" 
-            class="md-textarea form-control"></textarea>
+            class="md-textarea form-control" required></textarea>
           <label for="materialFormMessageModalEx1 message">Your message</label>
         </div>
           
         <div class="text-center mt-4 mb-2 white-text">
-          <a class="btn" onclick="document.getElementById('contact-form').submit();"  style="background-color:  #FBB917">Send
+          <!-- <a class="btn" onclick="document.getElementById('contact-form').submit();"  style="background-color:  #FBB917">Send
             <i class="fas fa-send ml-2"></i>
-          </a>
+          </a> -->
+          <button class="btn" type="submit" style="background-color:  #FBB917">Submit<i
+            class="fa fa-paper-plane-o ml-2" ></i></button>
         </div>
 
       </div>

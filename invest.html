@@ -87,13 +87,16 @@
    <div class="card-body">
 
    
-    <form>
+    <form action="php/mail.php" method="POST" id="ajax-contact">
       <p class="h4 text-center py-4 mt-5">Expression of Investment | Partnership Interest</p>
-
+      <div class="form-messages">
+        <p class="success"></p>
+        <p class="error"></p>
+      </div>
       <!-- Default input name -->
       <fieldset>
         <label for="defaultFormCardNameEx" class="black-text font-weight-light">Investor Name | Company Name</label>
-        <input type="text" id="defaultFormCardNameEx" class="form-control">  
+        <input type="text" id="defaultFormCardNameEx" class="form-control" name="name">  
       </fieldset>
       
       <br>
@@ -101,17 +104,17 @@
       <!-- Default input email -->
       <fieldset>
       <label for="defaultFormCardEmailEx" class="black-text font-weight-light mt-2">Email Address</label>
-      <input type="email" id="defaultFormCardEmailEx" class="form-control">
+      <input type="text" id="defaultFormCardEmailEx" class="form-control" name="email">
     </fieldset>
     
       <fieldset>
 	    <label for="defaultFormCardEmailEx" class="black-text font-weight-light mt-3">Contact Number</label>
-      <input type="email" id="defaultFormCardEmailEx" class="form-control">
+      <input type="text" id="defaultFormCardEmailEx" class="form-control" name="contact">
     </fieldset>
     
       <fieldset>
         <label for="defaultFormMessageModalEx" class="black-text font-weight-bold mt-3">Message</label>
-        <textarea type="text" id="defaultFormMessageModalEx" class="md-textarea form-control"></textarea>
+        <textarea type="text" id="defaultFormMessageModalEx" class="md-textarea form-control" name="message" required></textarea>
   
       </fieldset>
       
